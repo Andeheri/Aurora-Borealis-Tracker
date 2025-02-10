@@ -1,17 +1,19 @@
 from matplotlib import pyplot as plt
 from bs4 import BeautifulSoup
 import pandas as pd
+import numpy as np
 import requests
 import re
 
-city = "Sandnessjøen"
-
 
 class NorthernLightSample:
-    def __init__(self, city: str):
+    def __init__(self, city: str, KP_index_minimum: int, observable_northern_lights_minimum: float):
         self.city = city
+        self.KP_index_minimum = KP_index_minimum
+        self.observable_northern_lights_minimum = observable_northern_lights_minimum
+
         self.yr_forecast_url, self.yr_other_warnings_url, self.yr_city_code = self.get_yr_url()
-        self.time, self.kpIndex, self.auroraValue, self.condition, self.sunlight, self.cloud_cover, self.forecast_json = self.get_northern_lights_data()
+        self.time, self.kpIndex, self.auroraValue, self.condition, self.sunlight, self.cloud_coverage, self.forecast_json = self.get_northern_lights_data()
         
     def get_yr_url(self) -> tuple[str, str, str]:
         """
@@ -67,7 +69,7 @@ class NorthernLightSample:
             print(f"Failed to fetch data from '{aurora_forecast_api_url}'. Status code: {response.status_code}")
             quit()
     
-    def plot_data(self, y_series: list, title: str, y_lim: list[float], fig_size = (8, 4), should_plot_midnights = True, y_markings: list[tuple[float, str]] = None, y_lines: list[float] = None) -> None:
+    def plot_data(self, y_series: list, title: str, y_lim: list[float], fig_size = (8, 4.5), should_plot_midnights = True, y_markings: list[tuple[float, str]] = None, y_lines: list[float] = None) -> None:
         time_series = pd.to_datetime(self.time)
 
         # Plot the shape
@@ -113,18 +115,27 @@ class NorthernLightSample:
         plt.show()
 
     def plot_northern_lights_activity(self) -> None:
-        y_markings = [(0.1, "Low"), (0.5, "High")]
-        self.plot_data(self.auroraValue, title = "Northern Lights Activity", y_lim=[0, 1], y_markings=y_markings, y_lines=[0.1, 0.5])
+        y_markings = [(0.1, "Low"), (0.44, "High")]
+        self.plot_data(self.auroraValue, title = "Northern Lights Activity", y_lim=[0, 1], y_markings=y_markings, y_lines=[0.1, 0.44])
     
     def plot_cloud_coverage(self) -> None:
-        self.plot_data(self.cloud_cover, title = "Cloud coverage", y_lim=[0, 110])
+        self.plot_data(self.cloud_coverage, title = "Cloud coverage", y_lim=[0, 110])
 
+    def plot_observable_northern_lights_activity(self, filter_active = False) -> None:
+        data = np.array(self.auroraValue) * (1 - np.array(self.cloud_coverage) / 100)
+        if filter_active:
+            data = data * np.array([kpIndex >= self.KP_index_minimum for kpIndex in self.kpIndex])
+            self.plot_data(data, "Observable northern lights", y_lim = [0, 1], y_lines=[self.observable_northern_lights_minimum])
 
 def main() -> None:
-    city = "Sandnessjøen"
-    northern_light_sample = NorthernLightSample(city)
+    city = "Trondheim"
+    KP_index_minimum = 4  # https://www.theaurorazone.com/nuts-about-kp/
+    observable_northern_lights_minimum = 0.23  # Has to be tweaked
+
+    northern_light_sample = NorthernLightSample(city, KP_index_minimum, observable_northern_lights_minimum)
     # northern_light_sample.plot_northern_lights_activity()
-    northern_light_sample.plot_cloud_coverage()
+    # northern_light_sample.plot_cloud_coverage()
+    northern_light_sample.plot_observable_northern_lights_activity(filter_active=True)
 
 
 if __name__ == '__main__':
