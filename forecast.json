@@ -1,0 +1,1263 @@
+{
+    "updated": "2025-02-10T13:30:00+01:00",
+    "start": "2025-02-10T14:00:00+01:00",
+    "end": "2025-02-13T00:00:00+01:00",
+    "duration": {
+        "days": 2,
+        "hours": 10
+    },
+    "lowValue": 0.1,
+    "highValue": 0.5,
+    "shortIntervals": [
+        {
+            "start": "2025-02-10T14:00:00+01:00",
+            "end": "2025-02-10T15:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "day",
+                "text": "dag"
+            },
+            "cloudCover": {
+                "value": 94,
+                "high": 6,
+                "middle": 2,
+                "low": 94,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-10T15:00:00+01:00",
+            "end": "2025-02-10T16:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "day",
+                "text": "dag"
+            },
+            "cloudCover": {
+                "value": 94,
+                "high": 6,
+                "middle": 2,
+                "low": 94,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-10T16:00:00+01:00",
+            "end": "2025-02-10T17:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "dusk",
+                "text": "skumring"
+            },
+            "cloudCover": {
+                "value": 96,
+                "high": 28,
+                "middle": 6,
+                "low": 96,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-10T17:00:00+01:00",
+            "end": "2025-02-10T18:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.03,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "dusk",
+                "text": "skumring"
+            },
+            "cloudCover": {
+                "value": 98,
+                "high": 6,
+                "middle": 2,
+                "low": 98,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-10T18:00:00+01:00",
+            "end": "2025-02-10T19:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.25,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "dusk",
+                "text": "skumring"
+            },
+            "cloudCover": {
+                "value": 100,
+                "high": 5,
+                "middle": 0,
+                "low": 100,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-10T19:00:00+01:00",
+            "end": "2025-02-10T20:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.25,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 94,
+                "high": 4,
+                "middle": 0,
+                "low": 93,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-10T20:00:00+01:00",
+            "end": "2025-02-10T21:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.25,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 82,
+                "high": 2,
+                "middle": 0,
+                "low": 81,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-10T21:00:00+01:00",
+            "end": "2025-02-10T22:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.25,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 88,
+                "high": 22,
+                "middle": 0,
+                "low": 86,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-10T22:00:00+01:00",
+            "end": "2025-02-10T23:00:00+01:00",
+            "kpIndex": 4,
+            "auroraValue": 0.38,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 99,
+                "high": 39,
+                "middle": 0,
+                "low": 98,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-10T23:00:00+01:00",
+            "end": "2025-02-11T00:00:00+01:00",
+            "kpIndex": 4,
+            "auroraValue": 0.38,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 99,
+                "high": 9,
+                "middle": 0,
+                "low": 99,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T00:00:00+01:00",
+            "end": "2025-02-11T01:00:00+01:00",
+            "kpIndex": 4,
+            "auroraValue": 0.38,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 98,
+                "high": 1,
+                "middle": 0,
+                "low": 98,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T01:00:00+01:00",
+            "end": "2025-02-11T02:00:00+01:00",
+            "kpIndex": 4,
+            "auroraValue": 0.38,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 96,
+                "high": 5,
+                "middle": 0,
+                "low": 95,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T02:00:00+01:00",
+            "end": "2025-02-11T03:00:00+01:00",
+            "kpIndex": 4,
+            "auroraValue": 0.38,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 99,
+                "high": 1,
+                "middle": 0,
+                "low": 99,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T03:00:00+01:00",
+            "end": "2025-02-11T04:00:00+01:00",
+            "kpIndex": 4,
+            "auroraValue": 0.38,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 100,
+                "high": 0,
+                "middle": 0,
+                "low": 100,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T04:00:00+01:00",
+            "end": "2025-02-11T05:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.25,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 100,
+                "high": 3,
+                "middle": 0,
+                "low": 100,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T05:00:00+01:00",
+            "end": "2025-02-11T06:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.25,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "dawn",
+                "text": "demring"
+            },
+            "cloudCover": {
+                "value": 100,
+                "high": 59,
+                "middle": 0,
+                "low": 99,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T06:00:00+01:00",
+            "end": "2025-02-11T07:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.22,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "dawn",
+                "text": "demring"
+            },
+            "cloudCover": {
+                "value": 99,
+                "high": 57,
+                "middle": 0,
+                "low": 99,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T07:00:00+01:00",
+            "end": "2025-02-11T08:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "dawn",
+                "text": "demring"
+            },
+            "cloudCover": {
+                "value": 98,
+                "high": 68,
+                "middle": 0,
+                "low": 94,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T08:00:00+01:00",
+            "end": "2025-02-11T09:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "dawn",
+                "text": "demring"
+            },
+            "cloudCover": {
+                "value": 97,
+                "high": 21,
+                "middle": 0,
+                "low": 97,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T09:00:00+01:00",
+            "end": "2025-02-11T10:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "day",
+                "text": "dag"
+            },
+            "cloudCover": {
+                "value": 98,
+                "high": 47,
+                "middle": 0,
+                "low": 97,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T10:00:00+01:00",
+            "end": "2025-02-11T11:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "day",
+                "text": "dag"
+            },
+            "cloudCover": {
+                "value": 100,
+                "high": 40,
+                "middle": 0,
+                "low": 100,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T11:00:00+01:00",
+            "end": "2025-02-11T12:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "day",
+                "text": "dag"
+            },
+            "cloudCover": {
+                "value": 100,
+                "high": 3,
+                "middle": 0,
+                "low": 100,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T12:00:00+01:00",
+            "end": "2025-02-11T13:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "day",
+                "text": "dag"
+            },
+            "cloudCover": {
+                "value": 99,
+                "high": 0,
+                "middle": 0,
+                "low": 99,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T13:00:00+01:00",
+            "end": "2025-02-11T14:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "day",
+                "text": "dag"
+            },
+            "cloudCover": {
+                "value": 99,
+                "high": 0,
+                "middle": 0,
+                "low": 99,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T14:00:00+01:00",
+            "end": "2025-02-11T15:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "day",
+                "text": "dag"
+            },
+            "cloudCover": {
+                "value": 98,
+                "high": 13,
+                "middle": 0,
+                "low": 98,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T15:00:00+01:00",
+            "end": "2025-02-11T16:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "day",
+                "text": "dag"
+            },
+            "cloudCover": {
+                "value": 100,
+                "high": 32,
+                "middle": 0,
+                "low": 100,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T16:00:00+01:00",
+            "end": "2025-02-11T17:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "dusk",
+                "text": "skumring"
+            },
+            "cloudCover": {
+                "value": 98,
+                "high": 4,
+                "middle": 0,
+                "low": 98,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T17:00:00+01:00",
+            "end": "2025-02-11T18:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.02,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "dusk",
+                "text": "skumring"
+            },
+            "cloudCover": {
+                "value": 89,
+                "high": 0,
+                "middle": 0,
+                "low": 89,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T18:00:00+01:00",
+            "end": "2025-02-11T19:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.25,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "dusk",
+                "text": "skumring"
+            },
+            "cloudCover": {
+                "value": 86,
+                "high": 0,
+                "middle": 0,
+                "low": 86,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T19:00:00+01:00",
+            "end": "2025-02-11T20:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.25,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 98,
+                "high": 0,
+                "middle": 4,
+                "low": 98,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T20:00:00+01:00",
+            "end": "2025-02-11T21:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.25,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 100,
+                "high": 0,
+                "middle": 24,
+                "low": 100,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T21:00:00+01:00",
+            "end": "2025-02-11T22:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.25,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 100,
+                "high": 0,
+                "middle": 3,
+                "low": 100,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T22:00:00+01:00",
+            "end": "2025-02-11T23:00:00+01:00",
+            "kpIndex": 4,
+            "auroraValue": 0.38,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 100,
+                "high": 0,
+                "middle": 16,
+                "low": 99,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-11T23:00:00+01:00",
+            "end": "2025-02-12T00:00:00+01:00",
+            "kpIndex": 4,
+            "auroraValue": 0.38,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 100,
+                "high": 0,
+                "middle": 45,
+                "low": 99,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T00:00:00+01:00",
+            "end": "2025-02-12T01:00:00+01:00",
+            "kpIndex": 4,
+            "auroraValue": 0.38,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 100,
+                "high": 0,
+                "middle": 65,
+                "low": 99,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T01:00:00+01:00",
+            "end": "2025-02-12T02:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.25,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 100,
+                "high": 0,
+                "middle": 79,
+                "low": 100,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T02:00:00+01:00",
+            "end": "2025-02-12T03:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.25,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 100,
+                "high": 0,
+                "middle": 88,
+                "low": 100,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T03:00:00+01:00",
+            "end": "2025-02-12T04:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.25,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 100,
+                "high": 0,
+                "middle": 86,
+                "low": 100,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T04:00:00+01:00",
+            "end": "2025-02-12T05:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.25,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 98,
+                "high": 0,
+                "middle": 48,
+                "low": 97,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T05:00:00+01:00",
+            "end": "2025-02-12T06:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.25,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "dawn",
+                "text": "demring"
+            },
+            "cloudCover": {
+                "value": 48,
+                "high": 0,
+                "middle": 1,
+                "low": 47,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T06:00:00+01:00",
+            "end": "2025-02-12T07:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.21,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "dawn",
+                "text": "demring"
+            },
+            "cloudCover": {
+                "value": 14,
+                "high": 0,
+                "middle": 1,
+                "low": 13,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T07:00:00+01:00",
+            "end": "2025-02-12T08:00:00+01:00",
+            "kpIndex": 2,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "dawn",
+                "text": "demring"
+            },
+            "cloudCover": {
+                "value": 9,
+                "high": 0,
+                "middle": 0,
+                "low": 8,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T08:00:00+01:00",
+            "end": "2025-02-12T09:00:00+01:00",
+            "kpIndex": 2,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "day",
+                "text": "dag"
+            },
+            "cloudCover": {
+                "value": 8,
+                "high": 0,
+                "middle": 0,
+                "low": 8,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T09:00:00+01:00",
+            "end": "2025-02-12T10:00:00+01:00",
+            "kpIndex": 2,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "day",
+                "text": "dag"
+            },
+            "cloudCover": {
+                "value": 12,
+                "high": 0,
+                "middle": 0,
+                "low": 12,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T10:00:00+01:00",
+            "end": "2025-02-12T11:00:00+01:00",
+            "kpIndex": 2,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "day",
+                "text": "dag"
+            },
+            "cloudCover": {
+                "value": 8,
+                "high": 0,
+                "middle": 0,
+                "low": 8,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T11:00:00+01:00",
+            "end": "2025-02-12T12:00:00+01:00",
+            "kpIndex": 2,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "day",
+                "text": "dag"
+            },
+            "cloudCover": {
+                "value": 3,
+                "high": 0,
+                "middle": 0,
+                "low": 3,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T12:00:00+01:00",
+            "end": "2025-02-12T13:00:00+01:00",
+            "kpIndex": 2,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "day",
+                "text": "dag"
+            },
+            "cloudCover": {
+                "value": 3,
+                "high": 0,
+                "middle": 0,
+                "low": 3,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T13:00:00+01:00",
+            "end": "2025-02-12T14:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "day",
+                "text": "dag"
+            },
+            "cloudCover": {
+                "value": 2,
+                "high": 0,
+                "middle": 0,
+                "low": 2,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T14:00:00+01:00",
+            "end": "2025-02-12T15:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "day",
+                "text": "dag"
+            },
+            "cloudCover": {
+                "value": 1,
+                "high": 0,
+                "middle": 0,
+                "low": 1,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T15:00:00+01:00",
+            "end": "2025-02-12T16:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "day",
+                "text": "dag"
+            },
+            "cloudCover": {
+                "value": 6,
+                "high": 0,
+                "middle": 0,
+                "low": 6,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T16:00:00+01:00",
+            "end": "2025-02-12T17:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "dusk",
+                "text": "skumring"
+            },
+            "cloudCover": {
+                "value": 2,
+                "high": 0,
+                "middle": 0,
+                "low": 2,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T17:00:00+01:00",
+            "end": "2025-02-12T18:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.01,
+            "condition": {
+                "id": "no_activity",
+                "text": "Ingen aktivitet"
+            },
+            "sunlight": {
+                "id": "dusk",
+                "text": "skumring"
+            },
+            "cloudCover": {
+                "value": 7,
+                "high": 0,
+                "middle": 0,
+                "low": 7,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T18:00:00+01:00",
+            "end": "2025-02-12T19:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.25,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "dusk",
+                "text": "skumring"
+            },
+            "cloudCover": {
+                "value": 23,
+                "high": 0,
+                "middle": 0,
+                "low": 23,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T19:00:00+01:00",
+            "end": "2025-02-12T20:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.25,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 5,
+                "high": 0,
+                "middle": 0,
+                "low": 5,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T20:00:00+01:00",
+            "end": "2025-02-12T21:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.25,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 68,
+                "high": 0,
+                "middle": 3,
+                "low": 66,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T21:00:00+01:00",
+            "end": "2025-02-12T22:00:00+01:00",
+            "kpIndex": 3,
+            "auroraValue": 0.25,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 68,
+                "high": 0,
+                "middle": 3,
+                "low": 66,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T22:00:00+01:00",
+            "end": "2025-02-12T23:00:00+01:00",
+            "kpIndex": 4,
+            "auroraValue": 0.38,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 68,
+                "high": 0,
+                "middle": 3,
+                "low": 66,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-12T23:00:00+01:00",
+            "end": "2025-02-13T00:00:00+01:00",
+            "kpIndex": 4,
+            "auroraValue": 0.38,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 68,
+                "high": 0,
+                "middle": 3,
+                "low": 66,
+                "fog": 0
+            }
+        },
+        {
+            "start": "2025-02-13T00:00:00+01:00",
+            "end": "2025-02-13T01:00:00+01:00",
+            "kpIndex": 4,
+            "auroraValue": 0.38,
+            "condition": {
+                "id": "low_activity",
+                "text": "Lav aktivitet"
+            },
+            "sunlight": {
+                "id": "night",
+                "text": "natt"
+            },
+            "cloudCover": {
+                "value": 68,
+                "high": 0,
+                "middle": 3,
+                "low": 66,
+                "fog": 0
+            }
+        }
+    ],
+    "status": {
+        "code": "Ok"
+    },
+    "_links": {
+        "self": {
+            "href": "/api/v0/locations/1-255674/auroraforecast"
+        },
+        "parent": {
+            "href": "/api/v0/locations/1-255674"
+        }
+    }
+}
