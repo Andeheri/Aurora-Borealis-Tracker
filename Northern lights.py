@@ -66,42 +66,65 @@ class NorthernLightSample:
         else:
             print(f"Failed to fetch data from '{aurora_forecast_api_url}'. Status code: {response.status_code}")
             quit()
-
-
-    def plot_data(self, data: list[float]) -> None:
+    
+    def plot_data(self, y_series: list, title: str, y_lim: list[float], fig_size = (8, 4), should_plot_midnights = True, y_markings: list[tuple[float, str]] = None, y_lines: list[float] = None) -> None:
         time_series = pd.to_datetime(self.time)
 
-        # Identify midnight timestamps for vertical lines
-        midnights = [t for t in time_series if t.hour == 0 and t.minute == 0]
-
         # Plot the shape
-        plt.figure(figsize=(8, 4))
-        plt.plot(time_series, data, linestyle='-', marker='o', markersize=3, color='black')
-        plt.fill_between(time_series, data, color='turquoise', alpha=0.3)  # Fill the shape
+        plt.figure(figsize=fig_size)
+        plt.plot(time_series, y_series, linestyle='-', marker='o', markersize=2, color='black')
+        plt.fill_between(time_series, y_series, color='turquoise', alpha=0.3)  # Fill the shape
 
-        # Add vertical lines at midnight
-        for midnight in midnights:
-            plt.axvline(midnight, color='red', linestyle='--', alpha=0.7)
+        if should_plot_midnights:
+            # Identify midnight timestamps for vertical lines
+            midnights = [t for t in time_series if t.hour == 0 and t.minute == 0]
+            # Add vertical lines at midnight
+            for midnight in midnights:
+                plt.axvline(midnight, color='red', linestyle='--', alpha=0.7)
+        
+        if y_lines:
+            for y_line in y_lines:
+                plt.axhline(y=y_line, color='gray', linestyle='--', alpha=0.7)
 
-        # Add labels for Low and High levels
-        plt.text(time_series[-1] + pd.Timedelta(minutes=200), 0.1, 'Low', verticalalignment='center', color='black')
-        plt.text(time_series[-1] + pd.Timedelta(minutes=200), 0.5, 'High', verticalalignment='center', color='black')
+        if y_markings:
+            for y_value, marking in y_markings:
+                # Add labels for Low and High levels
+                plt.text(time_series[-1] + pd.Timedelta(minutes=200), y_value, marking, verticalalignment='center', color='black')
 
         # Format x-axis to show only time, with fewer labels
-        plt.title("Northern Lights Activity")
-        plt.xlabel("Time")
-        plt.xticks(time_series[::4], [t.strftime("%H:%M") for t in time_series[::4]], rotation=45)
-        plt.ylim([0, 1])
+        plt.title(title)
+        # plt.xlabel("Time")
+
+        # Ensure ticks always include 24:00 while keeping the same delta
+        delta = 3  # Step size for ticks
+        ticks = time_series[::delta]
+
+        # Shift the tick list forward if 24:00 is not included
+        i = 0
+        while time_series[-1] not in ticks:
+            i += 1
+            ticks = time_series[i::delta]  # Shift forward by one step
+
+        plt.xticks(ticks, [t.strftime("%H:%M") for t in ticks], rotation=45)
+        plt.ylim(y_lim)
         plt.grid(True)
 
         # Show the plot
         plt.show()
 
+    def plot_northern_lights_activity(self) -> None:
+        y_markings = [(0.1, "Low"), (0.5, "High")]
+        self.plot_data(self.auroraValue, title = "Northern Lights Activity", y_lim=[0, 1], y_markings=y_markings, y_lines=[0.1, 0.5])
+    
+    def plot_cloud_coverage(self) -> None:
+        self.plot_data(self.cloud_cover, title = "Cloud coverage", y_lim=[0, 110])
+
 
 def main() -> None:
     city = "Sandnessjøen"
     northern_light_sample = NorthernLightSample(city)
-    northern_light_sample.plot_data(northern_light_sample.auroraValue)
+    # northern_light_sample.plot_northern_lights_activity()
+    northern_light_sample.plot_cloud_coverage()
 
 
 if __name__ == '__main__':
